@@ -14,6 +14,7 @@
 </head>
 
 <body>
+    <!--TODO: React/Flux/TS-->
     <div class="control_panel">
         <h2>Dicecord - special thanks to <a href="http://www.teall.info/2014/01/online-3d-dice-roller.html">Anton Natarov</a></h2>
         <p id="loading_text">Loading libraries, please wait a bit...</p>
@@ -43,14 +44,21 @@
     </div>
     <div id="canvas"></div>
 
+    <!--3D library three.js-->
     <script src="https://ajax.googleapis.com/ajax/libs/threejs/r73/three.min.js"></script>
+    <!--Physics library cannon.js-->
     <script src="lib/cannon.min.js"></script>
 
-    
-
+    <!--Legacy js-->
     <script type="text/javascript" src="js/teal.js"></script>
+    <!--Dice geometry definitions-->
     <script type="text/javascript" src="js/dice.js"></script>
+    <!--TODO: Separate physics definitions-->
+
+    <!--Interaction rules-->
     <script type="text/javascript" src="js/main.js"></script>
+
+    <!--Init after all assets have loaded-->
     <script type="text/javascript" defer="defer">
         dice_initialize(document.body);
     </script>

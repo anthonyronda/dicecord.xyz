@@ -1,0 +1,30 @@
+{
+  "name": "dicecord",
+  "version": "1.0.0",
+  "description": "3d dice plus Discord webhooks",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rondaa/dicecord.xyz.git"
+  },
+  "keywords": [
+    "threejs",
+    "cannonjs",
+    "typescript",
+    "redux",
+    "react",
+    "discord"
+  ],
+  "author": "Anthony Ronda",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rondaa/dicecord.xyz/issues"
+  },
+  "homepage": "https://github.com/rondaa/dicecord.xyz#readme"
+}
