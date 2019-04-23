@@ -90,11 +90,19 @@ function dice_initialize(container) {
         formData.append("username", name);
 
         var request = new XMLHttpRequest();
-        if (name=="Keeper"){
-            webhook = "https://discordapp.com/api/webhooks/339844402010914817/mdMxak21V-yd_eCZBJuLXL7yh27XBOxTtLlQ3KXyxnWP5qEXffN4OOpmxx2B-8EmwuiM";
-        } else if (name=="Memechat"){
+        if (name=="Test"){
+            webhook = "https://discordapp.com/api/webhooks/569498094010499082/B8nj-C_s75VE44e9WJxh-tL_FyWLpcyt5JIlf-NiOPUpruR--PVFx4SrIKfCIL4V75Kb";
+        } else if (name=="holydaver08"){
             webhook = "https://discordapp.com/api/webhooks/340565955899817984/phSmTG4D9yx2TjBGP4IYdhd-btIdP6BHUfW20Hc_2VQOAS4gK-K7DXg2sufcg1rSsmHt";
-        } else {
+        } else if (name=="Ryder_Drakon"){
+            webhook = "https://discordapp.com/api/webhooks/340565955899817984/phSmTG4D9yx2TjBGP4IYdhd-btIdP6BHUfW20Hc_2VQOAS4gK-K7DXg2sufcg1rSsmHt";
+        } else if (name=="Juicedancer"){
+            webhook = "https://discordapp.com/api/webhooks/340565955899817984/phSmTG4D9yx2TjBGP4IYdhd-btIdP6BHUfW20Hc_2VQOAS4gK-K7DXg2sufcg1rSsmHt";
+        } else if (name=="corporat"){
+            webhook = "https://discordapp.com/api/webhooks/340565955899817984/phSmTG4D9yx2TjBGP4IYdhd-btIdP6BHUfW20Hc_2VQOAS4gK-K7DXg2sufcg1rSsmHt";
+        }else if (name=="GM screen"){
+            webhook = "https://discordapp.com/api/webhooks/340565955899817984/phSmTG4D9yx2TjBGP4IYdhd-btIdP6BHUfW20Hc_2VQOAS4gK-K7DXg2sufcg1rSsmHt";
+        }  else {
             webhook = "https://discordapp.com/api/webhooks/339844402010914817/mdMxak21V-yd_eCZBJuLXL7yh27XBOxTtLlQ3KXyxnWP5qEXffN4OOpmxx2B-8EmwuiM";
         }
         request.open("POST", webhook);
