@@ -92,7 +92,7 @@ function dice_initialize(container) {
         var request = new XMLHttpRequest();
         if (name=="Test"){
             webhook = "https://discordapp.com/api/webhooks/569498094010499082/B8nj-C_s75VE44e9WJxh-tL_FyWLpcyt5JIlf-NiOPUpruR--PVFx4SrIKfCIL4V75Kb";
-        } else if (name=="holydaver08" || name=="Ryder_Drakon" || name=="Juicedancer" || name=="corporat"){
+        } else if (name=="zzebzz" || name=="Afrodeez" || name=="Ryder_Drakon" || name=="Juicedancer" || name=="corporat"){
             webhook = "https://discordapp.com/api/webhooks/569498303436161044/_1ycjDoOtuVV5Qs8ysoiep0Ogl4jKfmJH7qqugtrIl1aMk9yqkGN34j_zm-HwISdjiAn";
         } else {
             webhook = "https://discordapp.com/api/webhooks/570252810998906882/o2ZzHkud7Tsu5UxzYc8cVCjVC_2Kb8gCW8tJEQpCGbrur5M2Qh-h7G9S08CqUvwnuS5V";
